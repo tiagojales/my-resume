@@ -4,7 +4,6 @@ import {
   SidebarHeader,
   SidebarContent,
   SidebarFooter,
-  SidebarGroupLabel,
   SidebarGroup,
   SidebarMenu,
   SidebarMenuItem,
