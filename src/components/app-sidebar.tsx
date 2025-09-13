@@ -4,18 +4,12 @@ import {
   SidebarHeader,
   SidebarContent,
   SidebarFooter,
-<<<<<<< HEAD
-=======
   SidebarGroupLabel,
->>>>>>> 45e0d65 (Adição de novos menus e novas páginas)
   SidebarGroup,
   SidebarMenu,
   SidebarMenuItem,
   SidebarMenuButton,
 } from "@/components/ui/sidebar"
-<<<<<<< HEAD
-import { Home } from "lucide-react"
-=======
 import {
   Home,
   GraduationCap,
@@ -28,7 +22,6 @@ import {
   Linkedin,
   PhoneCall,
 } from "lucide-react"
->>>>>>> 45e0d65 (Adição de novos menus e novas páginas)
 import Link from "next/link"
 // ou qualquer ícone que você use
 
@@ -36,19 +29,11 @@ export function AppSidebar() {
   return (
     <Sidebar side="left" variant="sidebar" collapsible="icon">
       <SidebarHeader>
-<<<<<<< HEAD
-        <div className="p-4 text-lg font-bold">Meu Currículo</div>
-=======
         <div className="p-4 text-lg font-bold text-center">Tiago Jales</div>
->>>>>>> 45e0d65 (Adição de novos menus e novas páginas)
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
           <SidebarMenu>
-<<<<<<< HEAD
-
-=======
->>>>>>> 45e0d65 (Adição de novos menus e novas páginas)
             <SidebarMenuItem>
               <SidebarMenuButton asChild isActive>
                 <Link href="/">
@@ -58,13 +43,6 @@ export function AppSidebar() {
               </SidebarMenuButton>
             </SidebarMenuItem>
 
-<<<<<<< HEAD
-          </SidebarMenu>
-        </SidebarGroup>
-      </SidebarContent>
-      <SidebarFooter>
-        <div className="p-4">Versão: 0.0.1</div>
-=======
             <SidebarMenuItem>
               <SidebarMenuButton asChild isActive>
                 <Link href="/education">
@@ -150,7 +128,6 @@ export function AppSidebar() {
       </SidebarContent>
       <SidebarFooter>
         <div className="p-4">Versão: 0.0.2</div>
->>>>>>> 45e0d65 (Adição de novos menus e novas páginas)
       </SidebarFooter>
     </Sidebar>
   )
